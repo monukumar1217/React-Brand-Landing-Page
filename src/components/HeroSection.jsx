@@ -9,9 +9,7 @@ const HeroSection = () => {
           way."
         </p>
 
-        <div className="hero-image">
-          <img src="/images/shoes2.png" alt="shoe-image" />
-        </div>
+        
 
         <div className="hero-btn">
           <button>Shop Now</button>
@@ -24,7 +22,11 @@ const HeroSection = () => {
           <img src="/images/amazon.png" alt="amazon-logo" />
           <img src="/images/flipkart.png" alt="amazon-logo" />
         </div>
+        
       </div>
+      <div className="hero-image">
+          <img src="/images/shoes2.png" alt="shoe-image" />
+        </div>
     </main>
   );
 };
